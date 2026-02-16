@@ -72,7 +72,7 @@ function reducer(state, action) {
 
 - `reducer` → A pure function.
 - `state` → Current state.
-- `action` → Object describing what to do.
+- `action` → Object describing what to do. It can also carry extra information and data
 
 ### Important Rule:
 Reducer **must return new state**.
